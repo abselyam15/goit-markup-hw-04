@@ -7,6 +7,7 @@
   --cornflower: #e7e9fc;
   --cloud: #f4f4fd;
   --white: #ffffff;
+  --green: #31d0aa;
 }
 
 * {
@@ -382,6 +383,12 @@ footer .container {
 
 .social-link {
   fill: var(--white);
+}
+
+.social-item:hover,
+.social-item:focus {
+  fill: var(--cloud);
+  background-color: var(--green);
 }
 
 .social-svg {
