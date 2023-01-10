@@ -100,6 +100,8 @@ header .container {
 /* ----------HERO---------- */
 
 .hero-section {
+  margin: 0 auto;
+  width: 1440px;
   padding: 188px 0;
   background-color: var(--navy-blue);
   background-image: linear-gradient(
@@ -234,6 +236,12 @@ header .container {
 .team-cards {
   justify-content: center;
   gap: 24px;
+}
+
+.team-text-div:hover,
+.team-text-div:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-name {
@@ -451,6 +459,12 @@ footer .container {
   border-bottom: 1px solid var(--cornflower);
   border-right: 1px solid var(--cornflower);
   border-left: 1px solid var(--cornflower);
+}
+
+.portfolio-card:hover,
+.portfolio-card:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .card-header {
